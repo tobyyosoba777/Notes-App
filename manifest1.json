@@ -1,9 +1,9 @@
 {
-    "name": "Towbbie Health Blog",
-    "short_name": "Health Blog",
+    "name": "Towbbie Notes App",
+    "short_name": "Towbbie Notes",
     "start_url": ".",
     "background_color": "#fff",
-    "theme_color": "#ff0241",
+    "theme_color": "#9418fd",
     "display": "standalone",
     "icons": [
         {
@@ -12,7 +12,7 @@
             "type": "image/png"
         },
         {
-            "src": "icon/android-chrome-512x512.png",
+            "src": "icon/android-chrome",
             "sizes": "512x512",
             "type": "image/png"
         }
