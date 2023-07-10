@@ -15,10 +15,18 @@ function updateStorage() {
 createBtn.addEventListener("click", ()=> {
     let inputBox = document.createElement("p");
     let img = document.createElement("img");
+
+
+    let copy = document.createElement("img");
+    copy.src = "icons/icons8-note-48.png";
+    copy.className = "copy";
+
+
     inputBox.className = "input-box";
     inputBox.setAttribute("contenteditable", "true");
     img.src = "images/delete.png";
-    notesContainer.appendChild(inputBox).appendChild(img);
+
+    notesContainer.appendChild(inputBox).appendChild(img).appendChild(copy);
 })
 
 notesContainer.addEventListener("click", function(e){
