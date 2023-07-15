@@ -3,6 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sansita&display=swap');
 
 * {
     margin: 0;
@@ -25,12 +28,14 @@
     align-items: center;
     font-size: 40px;
     font-weight: 600;
-    /* font-family: 'Indie Flower', cursive; */
     /* font-family: 'Concert One', cursive; */
     /* font-family: 'Monoton', cursive; */
-    font-family: 'Berkshire Swash', cursive;
+    /* font-family: 'Berkshire Swash', cursive; */
+    /* font-family: 'Roboto', sans-serif; */
     color: #ffffff;
 }
+
+
 
 .container h1 img {
     width: 60px;
@@ -62,6 +67,7 @@
     min-height: 150px;
     background: #fff;
     color: #333;
+    font-family: 'Roboto', sans-serif;
     padding: 20px;
     margin: 20px 0;
     outline: none;
@@ -85,4 +91,16 @@
     bottom: 15px;
     left: 15px;
     cursor: pointer;
+}
+
+.footer {
+    font-family: 'Sansita', sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.footer .copysign {
+    font-family: 'Rokkitt', serif;
+    font-weight: 600;
+    color: #000000;
 }
